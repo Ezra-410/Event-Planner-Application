@@ -1,5 +1,7 @@
 # Edit Event Details
 from events import events
+from export_event_list import save_history
+
 def edit_event_details():
     name = input("Enter event name to update: ")
     for event in events:
