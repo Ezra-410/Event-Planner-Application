@@ -1,3 +1,5 @@
+
+from events import events, file_name
 def export_event_list():
     if not events:
         print("\nNo events to export.")

@@ -7,6 +7,8 @@ file_name = "events.txt"
 events = []
 
 # Add Event
+from events import events
+from export_event_list import save_history
 
 def add_event():
     name = input("Enter event NAME: ")
@@ -22,3 +24,4 @@ def add_event():
 
     print(f"{name} has been added.")
     save_history(f"Added event: {name}, Date: {date}, Time: {time}, Location: {location}")
+  

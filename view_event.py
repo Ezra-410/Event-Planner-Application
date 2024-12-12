@@ -1,5 +1,6 @@
 # View Events
-
+from add import events
+from events import events
 def view_events():
     if not events:
         print("No events to display.")
