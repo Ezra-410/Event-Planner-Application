@@ -1,5 +1,6 @@
 # Delete Event
 from events import events
+from export_event_list import save_history
 def delete_event():
     name = input("Enter event name to remove: ")
 
