@@ -1,5 +1,5 @@
 # Delete Event
-
+from events import events
 def delete_event():
     name = input("Enter event name to remove: ")
 

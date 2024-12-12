@@ -1,5 +1,5 @@
 # Edit Event Details
-
+from events import events
 def edit_event_details():
     name = input("Enter event name to update: ")
     for event in events:
